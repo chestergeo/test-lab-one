@@ -26,6 +26,8 @@ module Ruby2600
       2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 3, 3, 3, 3,
       2, 2, 0, 2, 2, 2, 2, 2, 1, 3, 1, 3, 3, 3, 3, 3
     ]
+    
+    # Ohai I'm a change
 
     OPCODE_CYCLE_COUNTS = [
       7, 6, 0, 8, 3, 3, 5, 5, 3, 2, 2, 2, 4, 4, 6, 6,
@@ -85,6 +87,9 @@ module Ruby2600
 
     BXX = 0b00010000
     SCX = 0b00011000
+    
+    WTF = true
+    
     BXX_FLAGS = [:@n, :@v, :@c, :@z]
     SCX_FLAGS = [:@c, :@i, :@v, :@d] # @v not (officially) used
 
