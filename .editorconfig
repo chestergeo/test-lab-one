@@ -1,5 +1,2 @@
-[*.foo]
-indent_size = 10
-
-[*.bar]
+[*.rb]
 indent_size = 20
