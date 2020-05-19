@@ -25,6 +25,6 @@ jobs:
         git checkout master
         git pull
         git checkout catchup
-        git merge master
+        git merge origin/master
         git push 
     # --set-upstream origin catchup
