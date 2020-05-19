@@ -23,6 +23,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        git checkout -b catchup
+        git checkout -b catchup origin/catchup
         git merge origin/master
-        git push --set-upstream origin catchup
+        git push 
+    # --set-upstream origin catchup
