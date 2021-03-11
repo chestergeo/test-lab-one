@@ -1,3 +1,6 @@
 [submodule "test-lab-two"]
 	path = test-lab-two
 	url = ../test-lab-two
+[submodule "6d79370ff32ebf4c61dc82ef3fd16717"]
+	path = 6d79370ff32ebf4c61dc82ef3fd16717
+	url = https://gist.github.com/6d79370ff32ebf4c61dc82ef3fd16717.git
